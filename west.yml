@@ -24,7 +24,7 @@ manifest:
       remote: CanvasDM
     - name: ble_gateway_dm_firmware
       revision: main
-      remote: CanvasDM
+      remote: Lynkz-Instruments
     - name: cmake_functions_module
       path: modules/lib/laird_connect/cmake_functions
       revision: main
