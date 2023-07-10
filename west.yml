@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/CanvasDM
     - name: LairdCP
       url-base: https://github.com/LairdCP
+    - name: Lynkz-Instruments
+      url-base: https://github.com/Lynkz-Instruments
 
   # Please add items below based on alphabetical order.
   # These dependencies may need updating if new features are added to the firmware.
@@ -46,7 +48,7 @@ manifest:
     - name: lcz_sensor_telemetry_app_module
       path: modules/lib/laird_connect/lcz_sensor_telemetry_app
       revision: main
-      remote: CanvasDM
+      remote: Lynkz-Instruments
     - name: locking_module
       path: modules/lib/laird_connect/locking
       revision: main
@@ -187,7 +189,7 @@ manifest:
     - name: zephyr_lib
       path: modules/lib/laird_connect/zephyr_lib
       revision: main
-      remote: LairdCP
+      remote: Lynkz-Instruments
     # Framework must be placed after all components
     - name: zephyr_framework
       path: modules/lib/laird_connect/framework
